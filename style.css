@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face { 
+    font-family: "preffermediaeval"; 
+    src: url("Pfeffermediaeval.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+h1 {
+    margin-top: 5vw;
+    font-size: 4.1vw;
+    font-family: "preffermediaeval";
+    font-weight: 100;
+}
+* {
+    font-family: "Montserrat";
+}
+.city {
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-weight: 300;
+}
+.head-part {
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 50vw;
+    z-index: 2;
+    position: relative;
+
+}
+.plusi > div {
+    height: auto;
+    position: relative;
+}
+.women__head-part {
+    width: 28vw;
+    margin-left: 0vw;
+    top: 8vw;
+    z-index: -1;
+
+}
+.plusi {
+    width: 26vw;
+    text-align: left;
+    font-size: 1.5vw;
+    background-color: white;
+    padding: 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-flow: column;
+}
+.main__head-part {
+    height: 45vw;
+    display: flex;
+    align-items: center;
+}
+.head-part > div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.svg__plusi {
+    width: 3vw;
+    margin-right: 2vw;
+}
+.plusi > div {
+    margin-bottom: 2vw;
+    display: flex;
+}
+.plusi > button {
+    background: linear-gradient(to right, #ff24da, #8a2be2);
+    color: white;
+    border: 0;
+    
+    font-size: 1.2vw;
+    border-radius: 0.8vw;
+    height: 4vw;
+    border-bottom: #8a2be2 0.2vw solid;
+}
+
+.content {
+    z-index: 3;
+    position: relative;
+    background-color: white;
+}
+.div__4216 {
+    background-repeat: repeat-x;
+    width: 100vw;
+    background-size: contain;
+    height: 5vw;
+    background-image: url("4261.png");
+}
+.arrow__plusi {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 1vw;
+    width: 2vw;
+}
+.content-main {
+    margin-top: 4vw;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.label__select-girl {
+    display: flex;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    align-items: center;
+}
+.label-text__select-girl {
+    font-size: 3vw;
+}
+.jelly-cats2 {
+    width: 4vw;
+    margin-left: 1vw;
+}
+.card-woman {
+    box-shadow: 0vw 0vw 2vw 0.0vw gray;
+    border-radius: 1vw;
+    display: flex;
+    flex-flow: column;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    width: 23vw;
+    height: 21vw;
+}
+.name__card {
+    position: absolute;
+    box-shadow: 0.1vw 0.1vw 2vw 0.1vw #8a2be2;
+    transform: translate(-50%, -40%);
+    background: #ae57ff;
+    font-size: 1vw;
+    font-style: italic;
+    color: white;
+    border-radius: 20vw;
+    height: 2vw;
+    width: 6vw;
+    border: 0;
+    
+}
+.param-woman {
+    font-size: 0.9vw;
+}
+.number__div {
+    font-size: 0.8vw;
+    margin-left: 0.5vw;
+    border-bottom: 0.1vw black solid;
+}
+.params-woman {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.number-div {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7vw;
+    margin-left: 1.5vw;
+}
+.women-img__card {
+    border-radius: 1vw;
+}
+.phone-svg__card {
+
+    width: 1vw;
+    height: 1vw;
+}
+.btn-filters {
+    background: linear-gradient(to right, #ff24da, #8a2be2);
+    border-radius: 5vw;
+    width: 10vw;
+    height: 3.5vw;
+    padding: 0.3vw;
+    border: 0;
+    color: white;
+    font-size: 1.2vw;
+    margin-left: auto;
+}
+
+.price-btn {
+    position: relative;
+    transform: translate(-50%, 35%);
+    left: 50%;
+    
+    bottom: 0;
+    font-size: 1.2vw;
+    
+    border-radius: 0.4vw;
+    height: 3vw;
+    width: 12vw;
+    color: white;
+    border: 0;
+    background: rgba(216, 110, 243, 1);
+    border-bottom: #8a2be2 0.2vw solid;
+    
+}
+.women1-div {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+}
+.rules {
+    margin-top: 3vw;
+    border: 0.1vw black solid;
+    padding: 2vw;
+}
+.rules > p {
+    font-size: 1.2vw;
+}
+.label-rules {
+    font-size: 1.7vw;
+    font-style: italic;
+    font-weight: 550;
+    color: rgb(199, 78, 171);
+}
+.more-woman {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(216, 110, 243, 1);
+    border: 0;
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 0.4vw;
+    border-bottom: #8a2be2 0.2vw solid;
+    height: 2.5vw;
+    width: 6vw;
+}
+.footer {
+    margin-top: 8vw;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1vw;
+}
+.text-footer {
+    font-size: 1.2vw;
+    vertical-align: bottom;
+
+}
+
+.img-footer {
+    right: 0;
+    width: 8vw;
+    height: 2.2vw;
+    margin-left: auto;
+}
