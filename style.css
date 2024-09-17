@@ -211,15 +211,16 @@ h1 {
     border: 0.1vw black solid;
     padding: 2vw;
 }
-.rules > p {
-    font-size: 1.2vw;
-}
 .label-rules {
     font-size: 1.7vw;
     font-style: italic;
     font-weight: 550;
     color: rgb(199, 78, 171);
 }
+.rules > p {
+    font-size: 1.2vw;
+}
+
 .more-woman {
     position: relative;
     left: 50%;
@@ -246,10 +247,169 @@ h1 {
     vertical-align: bottom;
 
 }
-
+h1 > span {
+    font-size: 5vw;
+    font-family: "preffermediaeval";
+}
 .img-footer {
     right: 0;
     width: 8vw;
     height: 2.2vw;
     margin-left: auto;
+}
+@media (orientation: portrait) {
+    .head-part {
+        height: calc( 37.5vh + 10vw);
+        display: inherit;
+    }
+    .main__head-part {
+        height: 30vh;
+    }
+    h1 {
+        margin-top: 0vh;
+        font-size: 12vw;
+    }
+    .btn-filters {
+        font-size: 0;
+        background-image: url(filter.svg);
+        background-color: #b957ff;
+        background-size: cover;
+        height: 7.5vh;
+        width: 7.5vh;
+    }
+    .women1-div {
+        flex-flow: column;
+        align-items: center;
+    }
+    h1 > span {
+        font-size: 14vw;
+    }
+    .city {
+        font-size: 2.5vh;
+    }
+    .svg__plusi {
+        transform: translate(0%, -20%);
+        width: 2.5vh;
+    }
+    .plusi {
+        margin-left: 1vw;
+        width: 55vw;
+        height: auto;
+        background: transparent;
+        transform: translate(20%, 0);
+        font-size: 1.5vh;
+    }
+    .women__head-part {
+        width: 30vh;
+        width: 22vh;
+        position: absolute;
+        transform: translate(-10%, 20%);
+    }
+    .plusi > button {
+        height: 5vh;
+        position: relative;
+        border-radius: 1.2vh;
+        margin-top: 4vh;
+        width: 70vw;
+        font-size: 1.3vh;
+    }
+    .arrow__plusi {
+        position: relative;
+        margin-left: auto;
+        margin-right: 10vw;
+        width: 3vh;
+    }
+    .div__4216 {
+        height: 5vh;
+    }
+    .content-main {
+        width: 90vw;
+    }
+    .label-text__select-girl {
+        font-size: 5vh;
+        line-height: 1;
+        width: 21vh;
+    }
+    .jelly-cats2 { 
+        width: 6vh;
+    }
+    .card-woman {
+        margin-top: 3vh;
+        width: 70vw;
+        margin-bottom: 2vh;
+        height: 40vh;
+        border-radius: 3vh;
+    }
+    .name__card {
+        height: 4vh;
+        width: 12vh;
+        font-size: 2vh;
+    }
+    .number-div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .phone-svg__card {
+        width: 3vh;
+        height: 3vh;
+        transform: translate(0, 15%);
+    }
+    .number__div {
+        font-size: 1.5vh;
+    }
+    .params-woman {
+        margin-top: 1vh;
+    }
+    .param-woman {
+        font-size: 1.5vh;
+    }
+    .price-btn {
+        width: 50vw;
+        border-radius: 1vh;
+        font-size: 1.5vh;
+        height: 5vh;
+    }
+    .more-woman {
+        width: 30vw;
+        height: 4vh;
+        border-radius: 1vh;
+        font-size: 2vh;
+    }
+    
+    .rules > p {
+        font-size: 1.5vh;
+    }
+    .label-rules {
+        font-size: 1.7vh;
+    }
+    .footer {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100vw;
+        transform: translate(-5vw, 0);
+        height: 35vw;
+        border-bottom: 2px solid gray;
+        border-top: 2px solid gray;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-footer {
+        font-size: 5vw;
+        margin: 0;
+    }
+    
+    .img-footer {
+        margin: 0;
+        right: 0;
+        width: 40vw;
+        height: 13vw;
+        margin-left: 0;
+    }
+
+}
+@media ( height <= 750px ) and (orientation: portrait) {
+    .card-woman {
+        height: 45vh;
+    }
 }
