@@ -45,6 +45,7 @@ h1 {
 }
 .plusi {
     width: 26vw;
+    box-shadow: 0vw 0vw 2vw 0.0vw gray;
     text-align: left;
     font-size: 1.5vw;
     background-color: white;
@@ -292,6 +293,7 @@ h1 > span {
         width: 2.5vh;
     }
     .plusi {
+        box-shadow: 0 0 0 0;
         margin-left: 1vw;
         width: 55vw;
         height: auto;
